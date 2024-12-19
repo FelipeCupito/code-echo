@@ -75,9 +75,10 @@ Contenido de los archivos:
 
 Nombre del archivo: lib/main.dart
 
+\```
 void main() {
   runApp(MyApp());
 }
-
+\```
 ```
 
