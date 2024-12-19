@@ -71,47 +71,13 @@ lib/
 │   ├── channel.dart               // Modelo del canal
 │   └── live_stream.dart           // Modelo de transmisiones
 ...
-```
-```markdown
 Contenido de los archivos:
 
 Nombre del archivo: lib/main.dart
-```
-```dart
+
 void main() {
   runApp(MyApp());
 }
+
 ```
-...
-```
 
-## Notas
-- En macOS, la salida se copia automáticamente al portapapeles mediante `pbcopy`.
-- En Linux, asegúrate de tener instalado `xclip` y reemplaza `pbcopy` por `xclip -selection clipboard` en el script.
-
-## Contribuir
-
-¡Las contribuciones son bienvenidas! Por favor, sigue los pasos a continuación para contribuir:
-
-1. Haz un fork del repositorio.
-2. Crea una rama para tu nueva funcionalidad o corrección de errores:
-   ```bash
-   git checkout -b mi-nueva-funcionalidad
-   ```
-3. Realiza los cambios y confirma los commits:
-   ```bash
-   git commit -m "Agrega nueva funcionalidad"
-   ```
-4. Envía tus cambios a tu fork:
-   ```bash
-   git push origin mi-nueva-funcionalidad
-   ```
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-¡Gracias por usar CodeEcho! Si tienes sugerencias o encuentras algún problema, no dudes en abrir un issue.
